@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Autonomous Attention Aid",
+    "version": "0.1.0",
+    "description": "Help you stay focused on your work with real-time EEG-based attention monitoring.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "action": {
+        "default_title": "Autonomous Attention Aid",
+        "default_popup": "index.html"
+    }
+}
