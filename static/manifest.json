@@ -4,8 +4,19 @@
     "version": "0.1.0",
     "description": "Help you stay focused on your work with real-time EEG-based attention monitoring.",
     "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": [
+        "*://*.edx.org/*",
+        "*://*.coursera.org/*",
+        "<all_urls>"
+    ],
     "action": {
         "default_title": "Autonomous Attention Aid",
-        "default_popup": "index.html"
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "16.png",
+        "32": "32.png",
+        "48": "48.png",
+        "128": "128.png"
     }
 }
